@@ -1,0 +1,172 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+	font-family: "Lato";
+}
+.page {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.description h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin: 120px 0 40px 0;
+	color: #1E212C;
+}
+.description {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	margin-bottom: 180px;
+}
+.description p{
+	color: #424551;
+	margin-bottom: 48px;
+}
+.description h2{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+.description ul{
+	margin-bottom: 24px;
+	color: #1E212C;
+}
+.description li{
+	margin-bottom: 4px;
+	color: #424551;
+	padding-left: 32px;
+	min-height: 35px;
+	background: url("../img/icons/check.svg") 0 6px  no-repeat;
+}
+ul li:hover{
+	transition: all, 0.8s ease 0s;
+	transform: rotate(360deg);
+}
+.curator-title {
+	margin-bottom: 16px;
+}
+.curator-title h3 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+}
+.curator-title h2{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 16px;
+}
+.curator-position h3{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	text-transform: none;
+	margin-bottom: 32px;
+}
+.curator-title ul{
+	margin-bottom: 32px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	min-height: 35px;
+}
+.curator-title li{
+	margin-bottom: 4px;
+	padding-left: 24px;
+}
+.star {
+	background: url("../img/icons/Star\ \(Stroke\).svg") 0 4px no-repeat;
+}
+.vector1 {
+	background: url("../img/icons/Vector\ \(1\).svg") 0 4px no-repeat;
+}
+.vector2 {
+	background: url("../img/icons/Vector\ \(2\).svg") 0 4px no-repeat;
+}
+.curator-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 40px;
+}
+.footer {
+	max-width: 1230px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.button {
+	display: inline-block;
+	border: 1px solid red;
+	border-radius: 50%;
+	padding: 10px;
+	max-width: none;
+	background-color: green;
+	color: white;
+	margin-bottom: 20px;
+}
+.button :hover{
+	color: blue;
+}
+.link{
+	text-decoration: underline;	
+	margin-bottom: 30px;
+}
+.link::before{
+	content: "--";
+}
+.link::after{
+	content: "--";
+}
+.link :active {
+	color: blue;
+}
+.link :visited{
+	color: purple;
+}
+.homework p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+}
+.homework p:first-child{
+	color: red;
+}
+.homework p:last-child{
+	color: green;
+}
+.homework p:nth-child(2){
+	color: orange;
+}
+.homework:not(:last-child){
+	margin-bottom: 10px;
+}
